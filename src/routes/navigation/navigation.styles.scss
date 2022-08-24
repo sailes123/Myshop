@@ -1,14 +1,24 @@
 .navigation {
+  background-color: aqua;
+  border-radius: 25px;
   height: 70px;
   width: 100%;
   display: flex;
   justify-content: space-between;
   margin-bottom: 25px;
+  align-items: center;
 
   .logo-container {
-    height: 100%;
-    width: 70px;
-    padding: 25px;
+    padding-left: 25px;
+    display: inline-block;
+    p{
+      font-size: 30px;
+      font-weight: 500;
+      span{
+        color: rgb(139, 0, 0);
+      }
+    }
+
   }
 
   .nav-links-container {

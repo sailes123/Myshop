@@ -20,7 +20,7 @@ const Navigation = () => {
     <Fragment>
       <div className='navigation'>
         <Link className='logo-container' to='/'>
-          <CrwnLogo className='logo' />
+          <p><span>MY</span>SHOP</p>
         </Link>
         <div className='nav-links-container'>
           <Link className='nav-link' to='/shop'>
